@@ -1,0 +1,30 @@
+{
+  "name": "its-mieger/trusted-proxies",
+  "description": "Extended version of laravel's trusted proxy middleware",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Christopher Mieger",
+      "email": "info@its-mieger.de"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "": "test/"
+    }
+  },
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.6",
+    "phpunit/phpunit": "^7.0",
+    "mockery/mockery": "~1.0"
+  }
+}
